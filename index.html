@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nefisa Codes Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .project-content {
+            padding: 20px;
+        }
+
+        .project-content h2 {
+            font-size: 1.5em;
+            color: #007bff;
+            margin: 0 0 10px;
+        }
+
+        .project-content p {
+            font-size: 1em;
+            color: #555;
+            margin: 0 0 15px;
+        }
+
+        .project-content a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .project-content a:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .projects {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nefisa Codes</h1>
+        <p>Welcome to my portfolio! Discover my projects, explore my work, and connect with me.</p>
+    </header>
+
+    <div class="container">
+        <section class="projects">
+            <!-- Project 1: Advanced Data Analytics -->
+            <div class="project">
+                <img src="images/adv.jpg" alt="Advanced Data Analytics">
+                <div class="project-content">
+                    <h2>Advanced Data Analytics</h2>
+                    <p>Using advanced analytics techniques to uncover deep insights from complex data.</p>
+                    <a href="https://github.com/nefisa-codes/Advanced-Data-Analytics" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+            
+            <!-- Project 2: Data Mining -->
+            <div class="project">
+                <img src="images/data%20mining.jpg" alt="Data Mining">
+                <div class="project-content">
+                    <h2>Data Mining</h2>
+                    <p>Identifying meaningful patterns and trends in vast datasets through data mining techniques.</p>
+                    <a href="https://github.com/nefisa-codes/Data-Mining" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+            
+            <!-- Project 3: Data Cleaning -->
+            <div class="project">
+                <img src="images/Data-Cleaning-scaled.jpeg" alt="Data Cleaning">
+                <div class="project-content">
+                    <h2>Data Cleaning</h2>
+                    <p>Preparing datasets for analysis by addressing missing data, outliers, and inconsistencies.</p>
+                    <a href="https://github.com/nefisa-codes/Data-Cleaning" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+            
+            <!-- Project 4: Predictive Modeling -->
+            <div class="project">
+                <img src="images/predictive.jpg" alt="Predictive Modeling">
+                <div class="project-content">
+                    <h2>Predictive Modeling</h2>
+                    <p>Leveraging machine learning algorithms to predict future outcomes based on historical data.</p>
+                    <a href="https://github.com/nefisa-codes/Predictive-Modeling" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+
+            <!-- Project 5: Data Mining II (Reusing Data Mining Image) -->
+            <div class="project">
+                <img src="images/data%20mining.jpg" alt="Data Mining II">
+                <div class="project-content">
+                    <h2>Data Mining II</h2>
+                    <p>Advanced data mining techniques used to extract deeper insights from complex datasets.</p>
+                    <a href="https://github.com/nefisa-codes/Data-Mining-II" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 Nefisa Codes | Designed by Nefisa. Explore more on <a href="https://github.com/nefisa-codes" target="_blank">GitHub</a>.
+    </footer>
+
+</body>
+</html>
